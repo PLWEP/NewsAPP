@@ -135,14 +135,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="WJa-x6-EB9">
-                                <rect key="frame" x="146.66666666666666" y="109" width="100" height="100"/>
+                                <rect key="frame" x="96.666666666666686" y="109" width="200" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="FtM-2k-D5q"/>
-                                    <constraint firstAttribute="height" constant="100" id="njo-dy-Q06"/>
+                                    <constraint firstAttribute="width" constant="200" id="FtM-2k-D5q"/>
+                                    <constraint firstAttribute="height" constant="250" id="njo-dy-Q06"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLWEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFS-1D-bC3">
-                                <rect key="frame" x="155.66666666666666" y="233" width="82" height="30"/>
+                                <rect key="frame" x="155.66666666666666" y="383" width="82" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -188,7 +188,7 @@
     <resources>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <image name="profile" width="30" height="30"/>
+        <image name="profile" width="400" height="533.33331298828125"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
