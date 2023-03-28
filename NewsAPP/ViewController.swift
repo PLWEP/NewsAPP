@@ -68,7 +68,7 @@ let imageCache = NSCache<AnyObject, AnyObject>()
 let activityView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
 extension UIImageView {
   func loadRemoteImageFrom(urlString: String){
-    let url = URL(string: urlString)
+      guard let url = URL(string: urlString) else {return }
     image = nil
     activityView.center = self.center
     self.addSubview(activityView)
@@ -79,7 +79,7 @@ extension UIImageView {
         activityView.removeFromSuperview()
         return
     }
-    URLSession.shared.dataTask(with: url!) {
+    URLSession.shared.dataTask(with: url) {
         data, response, error in
         DispatchQueue.main.async {
             activityView.stopAnimating()
